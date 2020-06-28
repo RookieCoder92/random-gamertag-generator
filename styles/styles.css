@@ -211,6 +211,10 @@ option {
 
 @media (max-width: 425px) {
 
+    body {
+        background-size: 100% 90%;
+    }
+
     #header-p {
         font-size: 1.15rem;
     }
