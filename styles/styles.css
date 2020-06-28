@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+
+body {
+    background-color: #080E1A;
+    background-image: url(../assets/gaming.jpg);
+    background-repeat: no-repeat;
+    background-size: 75% auto;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", "sans-serif";
+}
+
+p {
+    color: white;
+}
+
+#content-box {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 1rem;
+}
+
+#header {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-p {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+    color: #C73883;
+    text-shadow: 0 0 3rem #C73883;
+}
+
+#gamertag-div {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gamertag {
+    font-weight: 800;
+    font-size: 6rem;
+    color: #63F1DD;
+    text-shadow: 0 0 6rem #63F1DD;
+}
+
+#button-and-option {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-and-option-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}   
+
+#funny-serious-p {
+    display: block;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+select {
+    
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+option {
+    cursor: pointer;
+}
+
+#button {
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #C73883;
+    box-shadow: 0 0 3rem #C73883;
+    border: 0;
+    color: white;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+
+    body {
+        background-size: 85% auto;
+    }
+    #header-p {
+        font-size: 2.75rem;
+    }
+
+    #gamertag {
+        font-size: 4rem;
+    }
+
+    #funny-serious-p {
+        font-size: 1.5rem;
+    }
+    
+    select {
+        font-size: 1.25rem;
+    }
+    
+    #button {
+        font-size: 2rem;
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    body {
+        background-size: 100% 90%;
+    }
+
+    #header-p {
+        font-size: 2.5rem;
+    }
+
+    #gamertag {
+        font-size: 3.25rem;
+        text-shadow: 0 0 3.25rem #63F1DD;
+    }
+
+    #funny-serious-p {
+        font-size: 1.5rem;
+    }
+    
+    select {
+        font-size: 1.25rem;
+    }
+    
+    #button {
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        background-size: 100% 90%;
+    }
+
+    #header-p {
+        font-size: 1.75rem;
+    }
+
+    #gamertag {
+        font-size: 2.5rem;
+        text-shadow: 0 0 2.5rem #63F1DD;
+    }
+
+    #funny-serious-p {
+        font-size: 1.25rem;
+    }
+    
+    select {
+        font-size: 1rem;
+    }
+    
+    #button {
+        font-size: 1.25rem;
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 575px) {
+    #header-p {
+        font-size: 1.5rem;
+    }
+
+    #gamertag {
+        font-size: 2.25rem;
+        text-shadow: 0 0 2.25rem #63F1DD;
+    }
+}
+
+
+@media (max-width: 425px) {
+
+    #header-p {
+        font-size: 1.15rem;
+    }
+
+    #gamertag {
+        font-size: 1.75rem;
+        text-shadow: 0 0 1.75rem #63F1DD;
+    }
+
+    #funny-serious-p {
+        font-size: 1.15rem;
+    }
+    
+    select {
+        font-size: 1rem;
+    }
+    
+    #button {
+        font-size: 1.15rem;
+        padding: 0.5rem 2rem;
+    }
+}
