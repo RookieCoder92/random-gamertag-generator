@@ -11,7 +11,7 @@ const funnyAdj = ['floppy', 'soggy', 'horny', 'spikey', 'dangerous', 'terrified'
  'erotic', 'unloved', 'diabetic', 'dyslexic', 'wiggly', 'jiggly', 'tricky', 'theChosen'];
 
 const funnyNouns = ['Hippo', 'Gorilla', 'Flamingo', 'Wombat', 'Turtle', 'Ninja',
-'Samurai', 'sandwich', 'Teaspoon', 'Lady', 'Alcoholic', 'Junkie', 'Pervert', 'Trainwreck',
+'Samurai', 'Sandwich', 'Teaspoon', 'Lady', 'Alcoholic', 'Junkie', 'Pervert', 'Trainwreck',
 'Wizard', 'Cheeseburger', 'Vegetable', 'Scooterkid', 'Communist', 'Fascist', 'Eskimo',
 'Dragon', 'Jellybean', 'Dad', 'Mother', 'CheeseCake', 'Blueberry', 'Policeman', 'Warlord',
 'Girlfriend', 'Testicle', 'Grandad', 'Grandma', 'Dinosaur', 'Alien', 'Dwarf',
